@@ -12,7 +12,7 @@ body{
     padding: 38px 0 48px;
 }
 
-.heder_flex, .footer_flex, .about{
+.heder_flex, .footer_flex, .about, .subscribe{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +82,6 @@ color: #696871;
 max-width: 410px;
 margin-bottom: 50px;
 }
-
 .button_violet{
     background: #5454d4;
 }
@@ -102,3 +101,35 @@ margin-bottom: 50px;
     border: 3px solid #5454d4;
 }
 
+.subscribe{
+    margin-bottom: 85px;
+}
+.subscribe_title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #191918;
+    margin-bottom: 38px;
+}
+
+.input{
+    width: 302px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #7087FF;padding-left: 14px;
+    box-sizing: border-box;
+    margin-right: 39px;
+}
+
+.input::placeholder, .input{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #000000;
+}
+
+.input:focus{
+    outline: none;
+}
